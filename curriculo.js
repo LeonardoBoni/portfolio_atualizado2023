@@ -27,5 +27,5 @@ function formacao(){
 
 function estrangeira(){
     var res = document.getElementById('ressobremim')
-    res.innerHTML = '<div id = "resestrangeira"><h1 id = "titulosobremim">TITULO</h1><p id = "txtsobremim">teste</p></div>'
+    res.innerHTML = '<div id = "resestrangeira"><h1 id = "titulosobremim">CURSO DE INGLÊS:</h1><p id = "txtsobremim">Atualmente, tenho 4 anos de curso de língua Inglesa, em uma escola particular de Araçatuba,"Jay English Studio", com nível considerado avançado!</p></div>'
 }
