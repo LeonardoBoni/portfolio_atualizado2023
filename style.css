@@ -47,11 +47,27 @@ body{
     justify-content: space-between;
 }
 .conteudo{
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgb(29, 29, 29);
     width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
+
+.conteudo-certificados{
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgb(29, 29, 29);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
 
 .titulo-cursos{
     font-size: 30px;
@@ -77,6 +93,20 @@ body{
 }
 
 .texto{
+    font-size: 1.5rem;
+    font-family: var(--font-secundaria)
+}
+
+.email{
+    text-decoration: underline;
+    color: #22D4FD;
+    font-size: 1.5rem;
+    font-family: var(--font-secundaria)
+}
+
+.link-texto{
+    color: #22D4FD;
+    text-decoration: none;
     font-size: 1.5rem;
     font-family: var(--font-secundaria)
 }
